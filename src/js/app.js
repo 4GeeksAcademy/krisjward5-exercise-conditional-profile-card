@@ -61,7 +61,7 @@ function render(variables = {}) {
   if (variables.country == null) {
     employeeCountry = "Country";
   } else {
-    employeeCountry = variables.Country;
+    employeeCountry = variables.country;
   }
 
   // reset the website body with the new html output
